@@ -3,6 +3,11 @@ Dataset: Google Play app reviews dataset
 This is a multiclass classificxation problem. 
 Initially the dataset had 5 classes(1,2,3,4,5) of review scores/ratings. But since the clasess were imbalanced so the classes were converted to just three classes(negative, neutral, positive) to reduce the class imbalance problem. ratings less than 3 were grouped to class 'Negative':0 , ratings equals to 3 were grouped to class 'Neutral':1 and ratings equals to 3 were grouped to class 'Postive':2 👍 
 
+![alt text](https://github.com/Anirbanbhk88/SentimentAnalysis_Bert/blob/main/imbalanced_dataset.png?raw=true)
+Dataset distribution for imbalanced dataset consisting of 5 classes
+
+![alt text](https://github.com/Anirbanbhk88/SentimentAnalysis_Bert/blob/main/balanced_dataset.png?raw=true)
+
 No of classes: 3
 Classes: ['Negative', 'Neutral, 'Positive']
 
